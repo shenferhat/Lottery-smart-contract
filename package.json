@@ -1,0 +1,34 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "deploy" : "node deploy.js"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahabvshahabi1996/lottery-contract-solidity.git"
+  },
+  "keywords": [
+    "solidity",
+    "smartContract",
+    "nodejs",
+    "web3",
+    "mocha"
+  ],
+  "author": "Alireza Shahabi",
+  "license": "MIT",
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "mocha": "^5.0.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  },
+  "bugs": {
+    "url": "https://github.com/shahabvshahabi1996/lottery-contract-solidity/issues"
+  },
+  "homepage": "https://github.com/shahabvshahabi1996/lottery-contract-solidity#readme"
+}
